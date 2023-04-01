@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="web-icon-container">
         <a href="#">
-          <img src={webIcon} alt="" className="web-icon" />
+          <img src={webIcon} alt="" className="website-icon" />
         </a>
         <button className="open-menu-btn" onClick={openMenu}>
           <AiOutlineMenu />

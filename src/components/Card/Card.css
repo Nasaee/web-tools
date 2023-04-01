@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 29rem;
+  padding: 3rem;
+}
+
+.web-icon {
+  display: block;
+  width: 3rem;
+  margin-bottom: 1.6rem;
+  cursor: unset;
+}
+
+.web-name-link a {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.web-name-link a:hover {
+  color: var(--primary-color-chade-1);
+}
+
+.web-description {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}

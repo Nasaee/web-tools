@@ -6,7 +6,7 @@
   padding: 1rem;
   gap: 4rem;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  position: relative;
+  width: 100%;
 }
 
 .web-icon-container {
@@ -17,7 +17,13 @@
   align-items: center;
 }
 
-.web-icon {
+.web-icon-container a {
+  display: block;
+  width: 18rem;
+}
+
+.website-icon {
+  display: block;
   width: 12rem;
   cursor: pointer;
 }
@@ -32,7 +38,7 @@
 }
 
 .open-menu-btn:hover {
-  color: #1e8cbc;
+  color: var(--primary-color-chade-1);
   transform: scale(1.1);
   cursor: pointer;
 }

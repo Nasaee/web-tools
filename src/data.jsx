@@ -1,8 +1,12 @@
 import {hatchful,heroicons,ionicons,logo,reactICon,} from './assets/section-icons/'; // prettier-ignore
 import { FaRegPaperPlane } from 'react-icons/fa';
-import { animista, tachyons, animateCSS } from './assets/section-css/';
+import {
+  animista,
+  tachyons,
+  animateCSS,
+  tailwind,
+} from './assets/section-css/';
 import { DiCss3 } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si';
 import {opencolor, maketintsandshades, coolors, colorhunt} from './assets/section-colors/' // prettier-ignore
 import { IoColorPaletteOutline } from 'react-icons/io5';
 
@@ -49,7 +53,7 @@ const data = [
     ],
   },
   {
-    title: 'css & tools',
+    title: 'css and tools',
     linkName: 'css',
     icon: <DiCss3 />,
     items: [
@@ -63,7 +67,7 @@ const data = [
       {
         name: 'Tailwind css',
         link: 'https://tailwindcss.com/',
-        icon: <SiTailwindcss />,
+        icon: tailwind,
         description:
           'A utility-first CSS framework packed with classes, that can be composed to build any design, directly in your markup.',
       },

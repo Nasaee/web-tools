@@ -1,0 +1,23 @@
+.section {
+  padding-top: 3rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 6rem;
+}
+
+.icon-container {
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--primary-font-color);
+  margin-bottom: 2rem;
+}
