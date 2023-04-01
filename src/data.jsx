@@ -66,7 +66,7 @@ const data = [
           'Easily create lighter and darker versions of any base color. Perfect for hovers, borders and gradients.',
       },
       {
-        name: 'Coolors Contrast Checker',
+        name: 'Contrast Checker',
         link: 'https://coolors.co/contrast-checker/112a46-acc8e5',
         icon: coolors,
         description:
