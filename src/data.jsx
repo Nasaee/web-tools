@@ -1,11 +1,6 @@
 import {hatchful,heroicons,ionicons,logo,reactICon,} from './assets/section-icons/'; // prettier-ignore
 import { FaRegPaperPlane } from 'react-icons/fa';
-import {
-  animista,
-  tachyons,
-  animateCSS,
-  tailwind,
-} from './assets/section-css/';
+import {animista,tachyons,animateCSS,tailwind,cubic} from './assets/section-css/'; // prettier-ignore
 import { DiCss3 } from 'react-icons/di';
 import {opencolor, maketintsandshades, coolors, colorhunt} from './assets/section-colors/' // prettier-ignore
 import { IoColorPaletteOutline } from 'react-icons/io5';
@@ -83,6 +78,12 @@ const data = [
         icon: animateCSS,
         description:
           'A library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.',
+      },
+      {
+        name: 'cubic-bezier',
+        link: 'https://cubic-bezier.com/#.17,.67,.83,.67',
+        icon: cubic,
+        description: 'easy cubic-bezier generator preview and compare',
       },
     ],
   },
