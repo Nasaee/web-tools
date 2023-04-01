@@ -7,47 +7,6 @@ import { IoColorPaletteOutline } from 'react-icons/io5';
 
 const data = [
   {
-    title: 'icons and logos',
-    linkName: 'icons',
-    icon: <FaRegPaperPlane />,
-    items: [
-      {
-        name: 'Ionicons',
-        link: 'https://ionic.io/ionicons',
-        icon: ionicons,
-        description:
-          'Premium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source',
-      },
-      {
-        name: 'heroicons',
-        link: 'https://heroicons.com/',
-        icon: heroicons,
-        description:
-          'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
-      },
-      {
-        name: 'React Icon',
-        link: 'https://react-icons.github.io/react-icons/',
-        icon: reactICon,
-        description:
-          'Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.',
-      },
-      {
-        name: 'LOGO',
-        link: 'https://logo.com/',
-        icon: logo,
-        description: 'Get a free logo and tools to build a brand you love.',
-      },
-      {
-        name: 'hatchful',
-        link: 'https://www.shopify.com/tools/logo-maker',
-        icon: hatchful,
-        description:
-          'Hatchful is a logo maker built for entrepreneurs on the go. No design experience is required to create your own logo from scratch',
-      },
-    ],
-  },
-  {
     title: 'css and tools',
     linkName: 'css',
     icon: <DiCss3 />,
@@ -126,6 +85,47 @@ const data = [
         icon: coolors,
         description:
           'Collection of beautiful color gradients for you to choose from and export to your project.',
+      },
+    ],
+  },
+  {
+    title: 'icons and logos',
+    linkName: 'icons',
+    icon: <FaRegPaperPlane />,
+    items: [
+      {
+        name: 'Ionicons',
+        link: 'https://ionic.io/ionicons',
+        icon: ionicons,
+        description:
+          'Premium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source',
+      },
+      {
+        name: 'heroicons',
+        link: 'https://heroicons.com/',
+        icon: heroicons,
+        description:
+          'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
+      },
+      {
+        name: 'React Icon',
+        link: 'https://react-icons.github.io/react-icons/',
+        icon: reactICon,
+        description:
+          'Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.',
+      },
+      {
+        name: 'LOGO',
+        link: 'https://logo.com/',
+        icon: logo,
+        description: 'Get a free logo and tools to build a brand you love.',
+      },
+      {
+        name: 'hatchful',
+        link: 'https://www.shopify.com/tools/logo-maker',
+        icon: hatchful,
+        description:
+          'Hatchful is a logo maker built for entrepreneurs on the go. No design experience is required to create your own logo from scratch',
       },
     ],
   },
