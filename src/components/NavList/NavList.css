@@ -1,0 +1,40 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin-right: 3rem;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 1280px) {
+  .links {
+    display: none;
+  }
+}
+
+.link a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: var(--letter-space);
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  padding: 0.3rem 2rem;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+}
+
+.link a:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 8px #1b7aa5;
+}
+
+.link-active {
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 8px #1b7aa5;
+}

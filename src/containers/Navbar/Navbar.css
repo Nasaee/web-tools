@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 4rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.web-icon-container {
+  display: flex;
+  flex: 1;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-icon {
+  width: 12rem;
+  cursor: pointer;
+}
+
+.open-menu-btn {
+  color: var(--primary-color);
+  border: none;
+  font-size: 2.5rem;
+  background-color: transparent;
+  display: none;
+  transition: all 0.3s;
+}
+
+.open-menu-btn:hover {
+  color: #1e8cbc;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  .navbar {
+    padding: 0;
+  }
+  .open-menu-btn {
+    display: block;
+  }
+}

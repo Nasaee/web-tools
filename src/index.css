@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #26afeb;
+  --primary-font-color: #ced4da;
+
+  --font-family: 'Oswald', sans-serif;
+  --letter-space: 0.2rem;
+  --border-radius: 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
