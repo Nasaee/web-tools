@@ -1,1 +1,30 @@
+.go-to-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: none;
+  background-color: rgba(55, 178, 78, 0.15);
+  border-radius: 50%;
+  outline: none;
+}
 
+.go-to-navbar a {
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  color: #adb5bd;
+  transform: translateY(3px);
+}
+
+.go-to-navbar:hover {
+  background-color: rgba(55, 178, 78, 0.5);
+}
+
+.go-to-navbar:hover a {
+  color: var(--primary-color);
+}
