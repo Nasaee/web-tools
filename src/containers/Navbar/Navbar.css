@@ -51,3 +51,20 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 530px) {
+  .navbar {
+    padding: 0.2rem;
+    width: 115%;
+  }
+  .website-icon {
+    width: 8rem;
+  }
+
+  .open-menu-btn {
+    font-size: 1.8rem;
+  }
+  .web-icon-container {
+    padding: 0 0.5rem;
+  }
+}
