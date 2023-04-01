@@ -31,3 +31,15 @@
   font-size: 1.2rem;
   line-height: 1.6rem;
 }
+
+@media screen and (max-width: 1120px) {
+  .card {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 0 auto;
+  }
+}

@@ -4,7 +4,7 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(29rem, 1fr));
   padding: 0 6rem;
 }
 
@@ -20,4 +20,16 @@
   font-weight: 400;
   color: var(--primary-font-color);
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1120px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
