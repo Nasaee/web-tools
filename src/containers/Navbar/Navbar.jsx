@@ -1,6 +1,6 @@
 import './Navbar.css';
 import NavList from '../../components/NavList/NavList';
-import webIcon from '../../assets/web-icon/web-icon.png';
+import webIcon from '../../assets/web-icon/web-icon .png';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { useGlobalContext } from '../../context';
 import Menu from '../../components/Munu/Menu';

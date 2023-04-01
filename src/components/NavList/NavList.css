@@ -30,7 +30,7 @@
 .link a:hover {
   color: #fff;
   background-color: var(--primary-color);
-  box-shadow: 0 0 8px #1b7aa5;
+  box-shadow: 0 0 8px #73c982;
 }
 
 .link-active {

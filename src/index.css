@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #26afeb;
+  --primary-color: #37b24d;
   --primary-font-color: #ced4da;
 
   --font-family: 'Oswald', sans-serif;
@@ -12,4 +12,5 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--font-family);
+  scroll-behavior: smooth;
 }
