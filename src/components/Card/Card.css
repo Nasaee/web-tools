@@ -43,3 +43,14 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 530px) {
+  .card {
+    width: 20rem;
+    padding: 3rem;
+  }
+  .web-description {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+}

@@ -55,7 +55,6 @@
 @media screen and (max-width: 530px) {
   .navbar {
     padding: 0.2rem;
-    width: 115%;
   }
   .website-icon {
     width: 8rem;
