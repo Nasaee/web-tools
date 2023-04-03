@@ -2,7 +2,9 @@ import './Card.css';
 const Card = ({ name, link, icon, description }) => {
   return (
     <div className="card" key={name}>
-      <img src={icon} alt="web icon" className="web-icon" />
+      <div className="web-icon-wrapper">
+        <img src={icon} alt="web icon" className="web-icon-img" />
+      </div>
       <h3 className="web-name-link">
         <a href={link} target="_blank">
           {name}

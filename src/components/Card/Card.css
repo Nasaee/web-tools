@@ -5,12 +5,22 @@
   padding: 3rem;
 }
 
-.web-icon {
-  display: block;
-  width: 3rem;
-  margin-bottom: 1.6rem;
-  cursor: unset;
+.web-icon-wrapper {
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
 }
+
+.web-icon-img {
+  height: 2.8rem;
+}
+
+/* .web-icon {
+  display: block;
+  margin-bottom: 1.6rem;♂
+  width: 3rem;
+  cursor: unset;
+} */
 
 .web-name-link a {
   display: block;
