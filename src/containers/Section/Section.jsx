@@ -5,10 +5,14 @@ import './Section.css';
 const Section = () => {
   return (
     <main className="main">
-      {data.map((category) => {
+      {data.map((category, i) => {
         const { title, linkName, icon, items } = category;
         return (
-          <section key={title} id={`${linkName}`} className="section">
+          <section
+            key={title}
+            id={`${linkName}`}
+            className={`section ${i % 2 === 0 && 'gray-background'}`}
+          >
             <div className="icon-container">{icon}</div>
             <h2 className="section-title">{title}</h2>
             <div className="cards">

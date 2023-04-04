@@ -3,7 +3,11 @@
 }
 
 .section {
-  padding-top: 3rem;
+  padding-top: 6rem;
+}
+
+.gray-background {
+  background-color: var(--background);
 }
 
 .cards {
