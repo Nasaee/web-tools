@@ -44,9 +44,6 @@
 }
 
 @media screen and (max-width: 530px) {
-  .section {
-    padding-top: 0rem;
-  }
   .cards {
     padding: 0 0.5rem;
   }
