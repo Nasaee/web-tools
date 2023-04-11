@@ -6,7 +6,6 @@
   height: 100vh;
   background-color: var(--primary-color);
   transform: right 0.3s cubic-bezier(1, 0, 0, 1);
-  z-index: 10;
 }
 
 .open-menu {
@@ -84,4 +83,10 @@
   color: #e03131;
   font-weight: 500;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 530px) {
+  .menu-container {
+    width: 100vw;
+  }
 }

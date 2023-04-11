@@ -8,9 +8,9 @@ const Menu = () => {
     <div className={`menu-container ${isMenuOpen && 'open-menu'}`}>
       <div className="menu">
         <ul className="menu-links">
-          {navLinksList.map((nav) => {
+          {navLinksList.map((nav, i) => {
             return (
-              <li className="menu-link">
+              <li className="menu-link" key={i}>
                 <a href={`#${nav}`} onClick={closeMenu}>
                   {nav}
                 </a>

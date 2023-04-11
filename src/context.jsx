@@ -6,8 +6,6 @@ const Appcontext = createContext();
 export const AppProvider = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navLinksList, setNavLinksList] = useState([]);
-  // const [navHeight, setNavHeight] = useState(0);
-  // const [mainElement, setMainElement] = useState();
 
   const openMenu = () => {
     setIsMenuOpen(true);
@@ -22,18 +20,6 @@ export const AppProvider = ({ children }) => {
     setNavLinksList(navLinks);
   }, []);
 
-  // useEffect(() => {
-  //   const navHeight = document
-  //     .querySelector('.navbar')
-  //     .getBoundingClientRect().height;
-  //   setNavHeight(navHeight);
-  // }, []);
-
-  // useEffect(() => {
-  //   const main = document.getElementsByTagName('main')[0];
-  //   setMainElement(main);
-  // }, []);
-
   return (
     <Appcontext.Provider
       value={{
@@ -42,8 +28,6 @@ export const AppProvider = ({ children }) => {
         openMenu,
         closeMenu,
         navLinksList,
-        // navHeight,
-        // mainElement,
       }}
     >
       {children}

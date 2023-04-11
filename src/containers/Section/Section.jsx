@@ -1,10 +1,12 @@
 import data from '../../data';
 import Card from '../../components/Card/ Card';
+import { useGlobalContext } from '../../context';
 import './Section.css';
 
 const Section = () => {
+  const { closeMenu } = useGlobalContext();
   return (
-    <main className="main">
+    <main className="main" onClick={closeMenu}>
       {data.map((category, i) => {
         const { title, linkName, icon, items } = category;
         return (

@@ -8,11 +8,6 @@ function App() {
     <>
       <Navbar />
       <Section />
-      <button className="go-to-navbar">
-        <a href="#">
-          <AiOutlineArrowUp />
-        </a>
-      </button>
     </>
   );
 }
