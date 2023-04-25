@@ -4,6 +4,8 @@ import {animista,tachyons,animateCSS,tailwind,cubic} from './assets/section-css/
 import { DiCss3 } from 'react-icons/di';
 import {opencolor, maketintsandshades, coolors, colorhunt} from './assets/section-colors/' // prettier-ignore
 import { IoColorPaletteOutline } from 'react-icons/io5';
+import { imgbb } from './assets/section-photo';
+import { AiOutlineCamera } from 'react-icons/ai';
 
 const cssSection = {
   title: 'css and tools',
@@ -131,6 +133,20 @@ const iconsSection = {
   ],
 };
 
-const data = [cssSection, colorSection, iconsSection];
+const photoSection = {
+  title: 'photos and tools',
+  linkName: 'Photo',
+  icon: <AiOutlineCamera />,
+  items: [
+    {
+      name: 'imgbb',
+      link: 'https://yeun.github.io/open-color/',
+      icon: imgbb,
+      description: 'Upload and share your images.',
+    },
+  ],
+};
+
+const data = [cssSection, colorSection, iconsSection, photoSection];
 
 export default data;
