@@ -140,7 +140,7 @@ const photoSection = {
   items: [
     {
       name: 'imgbb',
-      link: 'https://yeun.github.io/open-color/',
+      link: 'https://th.imgbb.com/',
       icon: imgbb,
       description: 'Upload and share your images.',
     },
